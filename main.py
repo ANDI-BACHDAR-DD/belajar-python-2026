@@ -172,3 +172,88 @@ print('suhu dalam fahrenheit konversi ke kelvin adalah',fahrenheitkonversi,'fahr
 #pr konversi fahrenheit ke kelvin
 kelvinkonversi=(fahrenheit -32)*5/9+273.15
 print('suhu dalam kelvin konversi ke fahrenheit adalah',kelvinkonversi,'kelvin')
+
+#operasi komperasi atau true or false
+# >, <, >= ,<= ,== ,!= ,is ,is not
+a = 5
+b = 2
+ # operasi komperasi (>)
+print('========= lebih dari (>)')
+hasil= a > 4
+print(a,'>',5,'=',hasil)
+hasil= b > 4
+print(b,'>',4,'=',hasil)
+hasil = b > 3
+print(b,'>',3,'=',hasil)
+ # operasi komperasi (<)
+print('========= kurang dari (<)')
+hasil= a < 4
+print(a,'<',5,'=',hasil)
+hasil= b < 4
+print(b,'<',4,'=',hasil)
+hasil = b < 3
+print(b,'<',3,'=',hasil)
+ # operasi komperasi lebih besar sama dengan (>=)
+print('========= lebih besar sama dengan (>=)')
+hasil= a >= 4
+print(a,'>=',5,'=',hasil)
+hasil= b >= 4
+print(b,'>=',4,'=',hasil)
+hasil = b >= 3
+print(b,'>=',3,'=',hasil)
+ # operasi kurang sama dengan (<=)
+print('========= kurang dari sama dengan (<=)')
+hasil= a <= 4
+print(a,'<=',5,'=',hasil)
+hasil= b <= 4
+print(b,'<=',4,'=',hasil)
+hasil = b <= 3
+print(b,'<=',3,'=',hasil)
+ # operasi komperasi (==)
+print('========= sama dengan (==)')
+hasil= a == 4
+print(a,'==',5,'=',hasil)
+hasil= b == 4
+print(b,'==',4,'=',hasil)
+hasil = b == 3
+print(b,'==',3,'=',hasil)
+ # operasi komperasi (!=)
+print('========= tidak sama dengan (!=)')
+hasil= a != 4
+print(a,'!=',5,'=',hasil)
+hasil= b != 4
+print(b,'!=',4,'=',hasil)
+hasil = b != 3
+print(b,'!=',3,'=',hasil)
+ # operasi komperasi is sebagai komperasi identity (is) sebagai objek
+print('========= identitiy (is)')
+x=5
+y=5
+print("nilai x = ",x,"id",hex(id(x)))
+print("nilai y = ",y,"id",hex(id(y)))
+hasil=x is y
+print('x is y =',hasil)
+# operasi komperasi is sebagai komperasi identity (is) membuat object
+print('========= identitiy (is)')
+x=7
+y=5
+print("nilai x = ",x,"id",hex(id(x)))
+print("nilai y = ",y,"id",hex(id(y)))
+hasil=x is y
+print('x is y =',hasil)
+# ini adalah assigment membuat object
+print('========= identitiy (is not)')
+x=5
+y=5
+print("nilai x = ",x,"id",hex(id(x)))
+print("nilai y = ",y,"id",hex(id(y)))
+hasil= x is not y
+print('x is y =',hasil)
+# ini adalah assigment membuat object
+print('========= identitiy (is not)')
+x=6
+y=5
+print("nilai x = ",x,"id",hex(id(x)))
+print("nilai y = ",y,"id",hex(id(y)))
+hasil= x is not y
+print('x is y =',hasil)
