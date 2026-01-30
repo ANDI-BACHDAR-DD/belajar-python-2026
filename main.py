@@ -321,3 +321,81 @@ a=False
 b=True
 c= a ^ b
 print(a,"XOR",b," =",c)
+
+#perpaduan logika danoperasi perbandingan
+
+#membuat gabungan area rentan dari angka
+#++++++3-------10+++++++
+inputUser=float(input("masukkan angka yang bernilai\n kurang dari 3\n dan\n lebih dari 10 = "))
+#++++++3
+#memeriksa angka yang kamu masukkan kurang dari 3
+isKurangDari = (inputUser < 3)
+print("masukkan angka yang kurang dari 3 = ",isKurangDari)
+#10+++++
+#memeriksa angka yang kamu masukkan lebih dari 10
+isLebihDari = (inputUser > 10)
+print("masukkan angka yang lebih dari 10 = ",isLebihDari)
+isCorrect=isKurangDari or isLebihDari
+print("masukkan angka : ",isCorrect)
+#membuat kasus irisan
+#------3++++++10------
+print("=====Irisan=====")
+inputUser=float(input("masukkan angka yang bernilai\n lebih dari 3\n dan\n kurang dari 10 = "))
+#------3
+#memeriksa angka yang kamu masukkan kurang dari 3
+isLebihDari = (inputUser > 3)
+print("masukkan angka yang lebih dari 3 = ",isLebihDari)
+#10-----
+#memeriksa angka yang kamu masukkan lebih dari 10
+isKurangDari = (inputUser < 10)
+print("masukkan angka yang kurang dari 10 = ",isKurangDari)
+isCorrect=isKurangDari and isLebihDari
+print("masukkan angka : ",isCorrect)
+
+#pr operator perbandingan
+#1. -----0+++++5-----8+++++11------
+#2. +++++0-----5+++++8-----11++++++
+#kerjakan nomer 1 dulu
+print("======Soal Nomor 1=====")
+inputUser=float(input("masukkan angka yang bernilai\n lebih dari 0\n kurang dari 5 \nlebih dari 8 \n  dan\n kurang dari 11 = "))
+#------0
+#memeriksa angka yang kamu masukkan lebih dari 0 
+isLebihDari0 = (inputUser > 0)
+print("masukkan angka yang lebih dari 0 = ",isLebihDari0)
+#5+++++
+#memeriksa angka yang kamu masukkan kurang dari 5
+isKurangDari5 = (inputUser < 5)
+print("masukkan angka yang kurang dari 5 = ",isKurangDari5)
+#8+++++
+#memeriksa angka yang kamu masukkan Lebih dari 8
+isLebihDari8 = (inputUser > 8)
+print("masukkan angka yang lebih dari 8 = ",isLebihDari8)
+#11------
+#memeriksa angka yang kamu masukkan kurang dari 11
+isKurangDari11 = (inputUser < 11)
+print("masukkan angka yang kurang dari 11 = ",isKurangDari11)
+#mengecek hasilnya
+isCorrect=isLebihDari0 and isKurangDari5 or isLebihDari8 and isKurangDari11
+print("masukkan angka : ",isCorrect)
+#2. +++++0-----5+++++8-----11++++++
+#+++++0
+print("======Soal nomer 2=====")
+inputUser=float(input("masukkan angka yang bernilai\n kurang dari 0\n lebih dari 5 \n kurang dari 8 \n  dan\n lebih dari 11 = "))
+#soal nomer 2
+isKurangDari0 = (inputUser < 0)
+print("masukkan angka yang kurang dari 0 = ",isKurangDari0)
+#5+++++
+#memeriksa angka yang kamu masukkan kurang dari 5
+isLebihDari5 = (inputUser > 5)
+print("masukkan angka yang lebih dari 5 = ",isLebihDari5)
+#+++++8
+#memeriksa angka yang kamu masukkan Lebih dari 8
+isKurangDari8 = (inputUser < 8)
+print("masukkan angka yang Kurang dari 8 = ",isKurangDari8)
+#11------
+#memeriksa angka yang kamu masukkan kurang dari 11
+isLebihDari11 = (inputUser > 11)
+print("masukkan angka yang Lebih dari 11 = ",isLebihDari11)
+#mengecek hasilnya
+isCorrect=isKurangDari0 or isLebihDari5 and isKurangDari8 or isLebihDari11
+print("masukkan angka : ",isCorrect)
