@@ -399,3 +399,52 @@ print("masukkan angka yang Lebih dari 11 = ",isLebihDari11)
 #mengecek hasilnya
 isCorrect=isKurangDari0 or isLebihDari5 and isKurangDari8 or isLebihDari11
 print("masukkan angka : ",isCorrect)
+
+#operasi bitwise, operasi biner, binary
+a = 9
+b = 5
+#bitwise OR(|)
+c = a | b
+print("\n=========OR=========")
+print("Nilai :",a,"binary : ",format(a,"08b"))
+print("Nilai :",b,"binary : ",format(b,"08b"))
+print("-----------------------------------(|)")
+print("Nilai :",c,"binary :",format(c,"08b"))
+#bitwise AND(&)
+c = a & b
+print("\n=========AND========")
+print("Nilai :",a,"binary : ",format(a,"08b"))
+print("Nilai :",b,"binary : ",format(b,"08b"))
+print("-----------------------------------(&)")
+print("Nilai :",c,"binary :",format(c,"08b"))
+#bitwise XOR(^)
+c = a ^ b
+print("\n=========XOR========")
+print("Nilai :",a,"binary : ",format(a,"08b"))
+print("Nilai :",b,"binary : ",format(b,"08b"))
+print("-----------------------------------(^)")
+print("Nilai :",c,"binary :",format(c,"08b"))
+#bitwise Not (~)
+c = a ^ b
+print("\n=========NOT========")
+print("Nilai :",a,"binary : ",format(a,"08b"))
+print("-----------------------------------(~)")
+print("Nilai :",c,"binary :",format(c,"08b"))
+print("-----------------------------------(~)")
+d = 0b0000001001
+e = 0b1111111111
+print("nilai :",e^d,"binary :",format(e^d,"08b"))
+
+#shifting
+#shift righat(>>)
+c = a >> b
+print("\n=========>>========")
+print("Nilai :",a,"binary : ",format(a,"08b"))
+print("-----------------------------------(>>)")
+print("Nilai :",c,"binary :",format(c,"08b"))
+#shift left(<<)
+c = a << b
+print("\n=========<<========")
+print("Nilai :",a,"binary : ",format(a,"08b"))
+print("-----------------------------------(<<)")
+print("Nilai :",c,"binary :",format(c,"08b"))
