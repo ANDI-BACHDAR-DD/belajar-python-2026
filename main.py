@@ -448,3 +448,121 @@ print("\n=========<<========")
 print("Nilai :",a,"binary : ",format(a,"08b"))
 print("-----------------------------------(<<)")
 print("Nilai :",c,"binary :",format(c,"08b"))
+
+#operasi yang dilakukan dengan penyingkatan
+#operasi dengan ditambah assigment
+
+a=5 #adalah assigment
+print("nilai a = ",a)
+
+a += 1 # artinya a = 5 + 1
+print("nilai a + = 1, nilai a menjadi",a)
+a *= 5 # artinya a = 6 * 5 
+print("nilai a * = 5, nilai a menjadi",a)
+a -= 8 # artinya a = 30 - 8
+print("nilai a - = 8, nilai a menjadi",a)
+a /= 5 # artinya a = 29 /5
+print("nilai a / = 5, nilai a menjadi",a)
+
+b=10
+print("\n nilai b =",b)
+
+#modulus dan floor devision
+b%=3
+print("nilai a % = 3, nilai a menjadi",b)
+
+b=10
+print("\n nilai b =",b)
+
+#modulus dan floor devision
+b//=3
+print("nilai a // = 3, nilai a menjadi",b)
+#pangkat atau eksponen
+a=5
+print("\n nilai a =",a)
+a **=5
+print("nilai a ** = 5, nilai a menjadi",a)
+#operasi bitwise
+#or
+c=True
+print("\n nilai c = ",c)
+c |=False
+print("nilai c|= False, nilai c menjadi",c)
+c=False
+print("nilai c = ",c)
+c |=False
+print("nilai c|= False, nilai c menjadi",c)
+#AND
+c=True
+print("\n nilai c = ",c)
+c &=False
+print("nilai c&= False, nilai c menjadi",c)
+c=False
+print("nilai c = ",c)
+c &=False
+print("nilai c&= False, nilai c menjadi",c)
+#XOR
+c=True
+print("\n nilai c = ",c)
+c ^=False
+print("nilai c^= False, nilai c menjadi",c)
+c=False
+print("nilai c = ",c)
+c ^=False
+print("nilai c^= False, nilai c menjadi",c)
+#geser mengeser 
+d=0b00100
+print("\nnilai d adalah= ",format(d,"04b"))
+d >>=2
+print("nilai d menjadi >>=2 ",format(d,"04b"))
+d <<=3
+print("nilai d menjadi <<=3 ",format(d,"04b"))
+
+#string
+data="ini adalah string"
+print=(data)
+print=(type(data))
+
+#cara membuat string
+"""
+    1.membuat string dengan single code ''
+    2.membuat string dengan double code ""
+"""
+data='menggunakan single Quote'
+print(data)
+data="menggunakan Double Quote"
+print(data)
+print('andi bahdar')
+print("andi bachdar dd")
+print("apakah hari ini hari minggu")
+print("apakah hari ini hari jum'at")
+#2 menggunakan tanda\
+print("besok hari sabtu \n hari ini hari minggu \n lusa hari juma'at")
+print("C:\\user\\bahdar")
+#membuat string menjadi tab berjarak
+print("andi bachdar\tS.KOM")
+#membuat string backspace atau berdekatan
+print("andi\bbahdar")
+#newline
+print("andi bachdar \n umur 25\n asal kendari") #LF (line Feeed)unix (max,linux dkk)
+print("andi bachdar dd\r asal kendari") #CR (Carriage return)
+print("andi bachdar dd\r\n asal kendari sulawesi tenggara")#CRLF
+
+#3. Raw string Literal
+#hati hati
+print("C\folder, jadi berdekatan")
+#caranya
+print("C\\folder, sudah beres")
+print(r"C\folder\bahdar")
+#multiline string
+print("""
+    Nama:andi bahdar
+    nickname: Deceng
+    hobbby:mendaki gunung Es
+""")
+#multiline raw string
+print(r"""
+    Nama:andi bahdar
+    nickname: Deceng\Prime 196
+    hobbby:mendaki gunung Es
+""")
