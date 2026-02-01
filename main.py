@@ -520,8 +520,8 @@ print("nilai d menjadi <<=3 ",format(d,"04b"))
 
 #string
 data="ini adalah string"
-print=(data)
-print=(type(data))
+print(data)
+print(type(data))
 
 #cara membuat string
 """
