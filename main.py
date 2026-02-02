@@ -566,3 +566,46 @@ print(r"""
     nickname: Deceng\Prime 196
     hobbby:mendaki gunung Es
 """)
+
+#memdofikasi string di python
+#1.menyambung string
+nama_pendek="andi"
+nama_panjang="andi bachdar dd"
+nama_panggilan="Deceng"
+nama_lengkap=nama_pendek + " " + nama_panjang+ "'" + nama_panggilan
+print(nama_lengkap)
+#menghitung jumlah string menggunakan 
+#2.menghitung panjang string
+panjang=len(nama_lengkap)
+print("panjang dari string ini adalah ="+ nama_lengkap +"=" + str(panjang))
+#3.operator untuk string
+#mengecek apakah ada komponen char atau string di string
+d="d"
+status=d in nama_lengkap
+print(d+"apakah d adah dalam nama lengkap saya :" + nama_lengkap +"="+str(status))
+#mengecek apakah ada komponen char atau string di string
+d="D"
+status=d in nama_lengkap
+print(d+"apakah D ada dalam nama lengkap saya :" + nama_lengkap +"="+str(status))
+
+#mengulang string
+print("lord"*12)
+print(13*"lord")
+#menghitung string
+print("index ke 0 adalah: " + nama_lengkap[0])
+print("index ke 7 adalah: " + nama_lengkap[7])
+print("index ke 12 adalah: " + nama_lengkap[12])
+print("index ke 0:3 adalah: " + nama_lengkap[0:4])
+print("index ke 0 adalah: " + nama_lengkap[3:4])
+print("index ke -1 adalah: " + nama_lengkap[-1])
+print("index ke -4 adalah: " + nama_lengkap[-4])
+print("index ke 0,2,4,6,8,10 adalah: " + nama_lengkap[0:10:2])
+
+#menghitung item paling kecil
+print("paling kecil :"+ min (nama_lengkap))
+#menghitung item paling besar
+print("paling besar :"+ max (nama_lengkap))
+#4.operator dalam bentuk method
+data="andi bachdar dd"
+jumlah=nama_lengkap.count("a")
+print("jumlah angka a di nama lengkap saya adalah:" + data+ "="+str(jumlah))
