@@ -665,3 +665,58 @@ tengah="tengah".center(20,":")
 print("'"+tengah+"'")
 tengah=tengah.strip(":")
 print("'"+tengah+"'")
+
+#format string
+#contoh generic
+#string
+nama="andi"
+format_string=f"halooo = {nama}"
+print(format_string)
+#boolean
+apakah_benar=True
+format_boolean=f"boolean = {apakah_benar}"
+print(format_boolean)
+#bilangan bulat
+bilangan_bulat=26
+format_bilangan_bulat=f"bilangan bulat={bilangan_bulat}"
+print(format_bilangan_bulat)
+#angka 
+angka=250.9
+format_desimal=f"bilangan desimal= {angka}"
+print(format_desimal)
+#bilangan ordo ribuan
+angka=20000000
+format_ribuan=f"bilangan ribuan={angka:,}"
+print(format_ribuan)
+#bilangan desimal
+angka=2005.54365
+format_ribuan=f"bilangan ribuan={angka:.3f}"
+print(format_ribuan)
+#menampilkan landing zero
+angka=2005.5433365
+format_ribuan=f"bilangan ribuan={angka:010.3f}"
+print(format_ribuan)
+#menampilkan tanda + atau -
+mines=-10
+plus=10.263
+format_mines=f"mines={mines:+d}"
+format_plus=f"plus={plus:+.2f}"
+print(format_mines)
+print(format_plus)
+#memformat person
+presentase=0.045
+format_persen=f"presentase ={presentase:.2%}"
+print(format_persen)
+#melakukan operasi aritmatika
+harga=50000
+jumlah=5
+pesanan=f"harga di kali jumlah{harga*jumlah}"
+print(pesanan)
+#melakukan operator lainya (binary,octal,hexadecimal)
+angka=500
+binary=f"format binary={bin(angka)}"
+octal=f"format octal={oct(angka)}"
+hexade=f"format hexadesimal={hex(angka)}"
+print(binary)
+print(octal)
+print(hexade)
