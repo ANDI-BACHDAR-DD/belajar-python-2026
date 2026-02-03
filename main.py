@@ -609,3 +609,59 @@ print("paling besar :"+ max (nama_lengkap))
 data="andi bachdar dd"
 jumlah=nama_lengkap.count("a")
 print("jumlah angka a di nama lengkap saya adalah:" + data+ "="+str(jumlah))
+
+#operator dalam bentuk methods
+## merubah semua case dari string
+#merubah semua string menjadi Upper case
+nama="andi bachdar dd"
+nama_besar=nama.upper()
+print("mengubah nama saya menjadi upper: "+nama_besar)
+#merubah semua string menjadi lower case
+nama_besar=nama.lower()
+print("mengubah nama saya menjadi lower: "+nama_besar)
+#pengecekan dengan isX method
+#contoh pengecekan lower case
+nama="andi"
+apakah_lower=nama.islower()
+print(nama+"apakah di namaku ada lowernyaa: "+str(apakah_lower))
+#pnegacekan Upper
+nama="Andi"
+apakah_upper=nama.isupper()
+print(nama+"apakah di namaku ada uppernyaa: "+str(apakah_upper))
+#isalpha() ---------> untuk pengecekan semua huruf
+#isalnum() ---------> untuk pengecekan semua numerik atau angka
+#isdecimal() ---------> untuk pengecekan semua bilangan
+#isspace() ---------> untuk pengecekan semua space di dalam string
+#istitle() ---------> untuk pengecekan semua judul dalam string
+
+judul="14 peaks nothing imposible"
+cek_judul=judul.istitle()
+print(judul+"apakah judul ini ada: "+str(cek_judul))
+#pengecekan stratswith, endswith
+name="Andi Bachdar"
+cek_start=name.startswith("Andi")
+print(name+"apakah ini ada?"+str(cek_start))
+#pengecekan endswith
+name="Andi Bachdar"
+cek_start=name.endswith("bachdar")
+print(name+"apakah ini ada?"+str(cek_start))
+#penggabunagn komponen join(),split()
+pisah=["indonesia","merdeka","1945"]
+gabungan=",".join(pisah)
+print(pisah)
+print(gabungan)
+
+gabungan=" ".join(pisah)
+print(gabungan)
+#penggabungan komponen menggunakan split
+gabungan="decengselalubelajarlebihbaik"
+print(gabungan.split('selalu'))
+#alokasi karakter rjust(), ljust(), center()
+kanan="kanan".rjust(10)
+print("'"+kanan+"'")
+kiri="kiri".ljust(10)
+print("'"+kiri+"'")
+tengah="tengah".center(20,":")
+print("'"+tengah+"'")
+tengah=tengah.strip(":")
+print("'"+tengah+"'")
