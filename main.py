@@ -720,3 +720,32 @@ hexade=f"format hexadesimal={hex(angka)}"
 print(binary)
 print(octal)
 print(hexade)
+
+#with and multiline
+#Data
+data_nama="andi bachdar dd"
+data_umur=23
+data_sepatu=43.5
+data_warna="Merah"
+
+ #data string standard
+data_string=f"nama={data_nama}, umur={data_umur}, nomer sepatu={data_sepatu}, warna favorite={data_warna}"
+print(5*"="+"Data String"+5*"=")
+print(data_string)
+
+  #data string standard
+data_string=f"\nnama={data_nama}, \numur={data_umur}, \nnomer sepatu={data_sepatu}, \nwarna favorite={data_warna}"
+print("\n"+5*"="+"Data String"+5*"=")
+print(data_string)
+
+#data dengan modifikasi triple qoute
+data_string=f"""
+nama            :{data_nama}
+umur            :{data_umur:>15}
+nomer sepatu    :{data_sepatu:>15}
+warna favorite  :{data_warna:>15}
+"""
+print("\n"+5*"="+"Data String"+5*"=")
+print(data_string)
+
+ 
