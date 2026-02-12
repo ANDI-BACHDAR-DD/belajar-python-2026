@@ -787,4 +787,17 @@ if nama=="andi":
 else:
     print("kamu bukan andi")
 print(f"program selesai")
+
+#Elif = Else if statement
+umur=int(input("masukkan umur anda: "))
+if umur<23:
+    print("kamu masih muda")
+elif umur >23:
+    print("kamu rentan")
+elif umur >40:
+    print("kamu harus waspada")
+else:
+    print("kamu masih muda")
+print(f"umur anda adalah: {umur} tahun")
+
  
