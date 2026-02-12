@@ -765,4 +765,26 @@ umur_bulan_sisa=(umur_hari.days%365)//30
 
 print(f"hari nyaa adalah hari\t:{tanggal_lahir:%A}")
 print(f"Umur anda adalah\t:{umur_tahun} tahun {umur_bulan_sisa} bulan")
+
+#if and else statement
+#1.ifnya
+#2.kondisinya
+#3.aksinya
+
+nama=input("Siapa nama anda: ")
+#1 ifnya (inline)
+#if nama=="bahdar":print("bahdar kamu keren abiezzz")
+#print(f"terimkasih akhir dari program")
+#2.kondisinya if identansion
+#if nama=="bahdar":
+#    print("kamu kece abieezz@@@@")
+#    print("yang terbaik123")
+#print(f"terimkasih{nama}")
+
+if nama=="andi":
+    print("kamu yang terkeren")
+    print("luarbiasa berhasil")
+else:
+    print("kamu bukan andi")
+print(f"program selesai")
  
