@@ -748,4 +748,21 @@ warna favorite  :{data_warna:>15}
 print("\n"+5*"="+"Data String"+5*"=")
 print(data_string)
 
+#membuat projek penghitung hari dan tahun lahir
+import datetime as dt
+print("Silahkan masukkkan tanggal, \nbulan dan tahun lahir anda\n")
+tanggal=int(input("Tanggal\t:"))
+bulan_lahir=int(input("Bulan\t:"))
+tahun_lahir=int(input("Tahun\t:"))
+tanggal_lahir= dt.date(tahun_lahir,bulan_lahir,tanggal)
+print(f"Tanggal lahir anda adalah: {tanggal_lahir}")
+
+hari_ini=dt.date.today()
+print(f"hari ini tanggal\t:{hari_ini}")
+umur_hari=hari_ini-tanggal_lahir
+umur_tahun=umur_hari.days//365
+umur_bulan_sisa=(umur_hari.days%365)//30
+
+print(f"hari nyaa adalah hari\t:{tanggal_lahir:%A}")
+print(f"Umur anda adalah\t:{umur_tahun} tahun {umur_bulan_sisa} bulan")
  
