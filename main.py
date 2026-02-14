@@ -825,4 +825,28 @@ else:
     print("masukkan yang ada operatornya bang")
 print("program berakhir Terimaksih sudah menjalankan operatornya")
 
- 
+#For Looop
+#ini dengan list
+angka2_list=[0,2,4,6,8]
+print(angka2_list)
+
+for i in angka2_list:
+    print(f"i sekarang menjadi ->{i} ")
+
+print("program 1 berakir \n ")
+# ini dengan range
+angka2_range =range(10)
+for i in range(10):
+    print(f"i sekarang menjadi->{i}")
+print("program 2 berakir \n ")
+
+# ini dengan range dengan batasan
+angka2_range =range(1,14)
+for i in angka2_range:
+    print(f"i sekarang menjadi->{i}")
+print("program 3 berakir \n ")
+#ini dengan menggunakan string
+data_str="andi ganteng"
+for huruf in data_str:
+    print(huruf)
+print("program 4 berakir \n ") 
