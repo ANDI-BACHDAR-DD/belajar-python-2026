@@ -850,3 +850,13 @@ data_str="andi ganteng"
 for huruf in data_str:
     print(huruf)
 print("program 4 berakir \n ") 
+
+#while loop
+angka =0
+print(f"ini adalah sebuah angka: {angka}")
+while angka < 5:
+    angka += 1
+    print(f"angka sekarang adalah->: {angka}")
+    print("percobaan while looping")
+
+print("program selesai")
