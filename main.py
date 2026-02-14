@@ -800,4 +800,29 @@ else:
     print("kamu masih muda")
 print(f"umur anda adalah: {umur} tahun")
 
+#aplikasi kolkulator
+print(20*"=")
+print("operator kalkulator")
+print(20*"="+"\n")
+
+angka_1=float(input("Masukkan angka 1 bang :"))
+operator=input("berikut operator yang tersedia +,x,/,- :")
+angka_2=float(input("Masukkan angka 2 bang : "))
+#kondisinya atau elif nyaa
+if operator =="+":
+    hasil=angka_1+angka_2
+    print(f"hasilnya adalah = {hasil}")
+elif operator == "x" or operator =="*":
+    hasil= angka_1 * angka_2
+    print(f"hasilnya adalah = {hasil}")
+elif operator =="-":
+    hasil=angka_1 - angka_2
+    print(f"hasilnya adalah = {hasil}")
+elif operator =="/":
+    hasil=angka_1 / angka_2
+    print(f"hasilnya adalah = {hasil}")
+else:
+    print("masukkan yang ada operatornya bang")
+print("program berakhir Terimaksih sudah menjalankan operatornya")
+
  
