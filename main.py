@@ -860,3 +860,19 @@ while angka < 5:
     print("percobaan while looping")
 
 print("program selesai")
+#while loop dengan fungsi continue
+angka =0
+print(f"angka sekarang ->:{angka}")
+while angka < 7:
+    angka +=1
+    print(f"angka sekarang :{angka}")
+    
+    if angka == 3:
+        print("mantap")
+        continue
+    elif angka == 5:
+        print("andi ganteng")
+        continue
+
+    print("nice")
+print("program berakhir")
