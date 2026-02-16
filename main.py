@@ -876,3 +876,15 @@ while angka < 7:
 
     print("nice")
 print("program berakhir")
+
+#break
+data_int=int(input("hitung sampai= "))
+angka=0
+
+while True:
+    angka +=1
+    print(f"Count= {angka}")
+    if angka == data_int:
+        print("nice")
+        break
+print("program telah berakhir")
