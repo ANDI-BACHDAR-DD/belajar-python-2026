@@ -925,3 +925,41 @@ while True:
         break
 print("program selesai")
     
+## materi list
+
+#kumpulan data number
+data_number=[1,3,5,7,9]
+print(data_number)
+
+#kumpulan data string menggunalkan list
+data_string=["andi bachdar dd"]
+print(data_string)
+
+#kumpulan data boolean menggunakan List
+data_boolean=[True, False, True, True, False,True]
+print(data_boolean)
+
+#kumpulan data campuran
+data_campuran=[3,"andi",True,False,7,"Lord","Deceng",False,25,True]
+print(data_campuran)
+
+#cara alternatif membuat list
+data_range=range(0,91)
+print(data_range)
+data_list=list(data_range)
+print(data_list)
+#cara membuat for loop menggunakan list comprehension
+list_menggunakan_for=[i**4 for i in range(0,10)]
+print(list_menggunakan_for)
+
+#cara membuat list menggunakan for pakai if
+list_menggunakan_if=[i**2 for i in range(0,10) if i!=5]
+print(list_menggunakan_if)
+#genap
+list_menggunakan_if_genap=[i**2 for i in range (0,10)if i%2 ==0]
+print(list_menggunakan_if_genap)
+#ganjil
+list_menggunakan_if_ganjil=[i**2 for i in range (0,10)if i%2 !=0]
+print(list_menggunakan_if_ganjil)
+
+
